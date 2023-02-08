@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-
+/* A: kodlari format edek z/o [shift+alt+f] */
 .container {
   max-width: 70vw;
   margin: 0 auto;
@@ -62,6 +62,7 @@ h2 {
 }
 
 @media (max-width: 830px) {
+  /* A: font-size-lari root-a bagli edek. rem-lerle verek */
   .header {
     font-size: 35px;
   }
@@ -125,7 +126,7 @@ h2 {
   .text1 p {
     font-size: 10px;
   }
-
+  /* A: bos selector */
   .footer .text1 {
   }
 }
